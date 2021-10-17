@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "service": "Short Trem Hospitalization",
+    "img": "https://i.ibb.co/BGJtyP4/LHC-home3.jpg",
+    "des": "Short-term inpatient hospitalization may be the right choice to help your loved one in an emergency. Short-term inpatient hospitalization is best for clients who are at immediate risk of harming themselves or others or who are experiencing severe psychosis. Because the goal of short-term inpatient hospitalization is to stabilize the client, not cure him/her, staff will focus on making a diagnosis and forming a longer-term treatment plan. Staff will also administer medical care, support, and supervision during the client’s stay. The hospitalization may also include therapeutic activities to help the client stabilize.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "service": "Emergency Room",
+    "img": "https://i.ibb.co/0XYxDv5/Getty-Images-1178748290-hero-1024x575.jpg",
+    "des": "An emergency department, also known as an accident & emergency department, emergency room, emergency ward or casualty department, is a medical treatment facility specializing in emergency medicine, the acute care of patients who present without prior appointment; either by their own means or by that of an ambulance.",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "service": "General and Specialty Surgary",
+    "img": "https://i.ibb.co/hX3jnDS/174-49.jpg",
+    "des": "What is general surgery services?The general surgeon is trained to provide surgical care for the whole patient. ... It includes head and neck surgery, pediatric surgery, surgical critical care, surgical oncology, trauma and burns, transplants and vascular surgery.The breadth and depth of this knowledge may vary by disease category. Surgical management requires skill in complex decision making; general surgeons should be competent in diagnosis as well as treatment and management, including operative intervention.",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "service": "X ray/radiology Services",
+    "img": "https://i.ibb.co/m0bPLhC/X-Ray-Services-scaled.jpg",
+    "des": "An x-ray, which is short for x-radiation, is a type of imaging test that has been utilized for years. With this technology, doctors can see your bones, muscle and more without having to make an incision. This helps them diagnose, treat and monitor a number of different medical conditions. Because the test uses a form of electromagnetic radiation, there are some risks involved in the procedure. However, the benefits far outweigh these potential riskX-ray images are created using a machine that sends x-ray particles through the body. The x-ray particles themselves are called photons, and they allow a specialized film or computer to capture the images that are created.",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "service": "Laboratory services",
+    "img": "https://i.ibb.co/nQSBfGD/Lab-Services-shutterstock-233221729-Lo-Res.jpg",
+    "des": "A medical laboratory or clinical laboratory is a laboratory where tests are carried out on clinical specimens to obtain information about the health of a patient to aid in diagnosis, treatment, and prevention of disease. ... Medical laboratories vary in size and complexity and so offer a variety of testing services.Medical laboratories vary in size and complexity and so offer a variety of testing services. More comprehensive services can be found in acute-care hospitals and medical centers, where 70% of clinical decisions are based on laboratory testing.",
+    "rating": 3.5
+  },
+  {
+    "id": 6,
+    "service": "Blood Bank",
+    "img": "https://i.ibb.co/Fz4nvF4/Blood-bank-employee-blood.jpg",
+    "des": "A blood bank is a place where blood is collected and stored before it is used for transfusions. Blood banking takes place in the lab. This is to make sure that donated blood and blood products are safe before they are used. Blood banking also determines the blood type. The blood is also tested for infectious diseases.Most blood donors are volunteers. But you may also donate blood several weeks before having surgery. This is so that your blood is available in case you need a transfusion. Donating blood for yourself is called an autologous donation.",
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "service": "Pediatric Specialty care",
+    "img": "https://i.ibb.co/j4R3jh6/images-q-tbn-ANd9-Gc-Rxfpidk-Gk-W5-B8lo-WW2knx-Kr-Bh7ery9-UUv-K-AYd-Msev-Enjp-RERd-ZCpm-Uvf-Joo-VRAE.jpg",
+    "des": "Pediatric critical care specialists treat children from birth through the teen years. They choose to make caring for children who are very sick the core of their medical practice. Their advanced training and experience prepare them to give children in PICUs the unique medical care that they need.Pediatric critical care specialists treat children from birth through the teen years. They choose to make caring for children who are very sick the core of their medical practice. Their advanced training and experience prepare them to give children in PICUs the unique medical care that they need.",
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "service": "Mental Health care",
+    "img": "https://i.ibb.co/n6SmT9c/images-q-tbn-ANd9-Gc-R-z-G-f-CC-1-Jm-o-vbfa-TFN2d-LPD1-Xe-O-Sc1l-U12j49ee5ps2t-Qk9dq-Jpf-y-VUPyc-Rn.jpg",
+    "des": "Getting medical coverage for your mental health is just as important as covering your physical health. Fortunately, the Affordable Care Act (ACA) requires plans sold on the individual and family health insurance marketplace to include mental health insurance coverage. Caring for your mental health is always essential, but it has become especially important during the COVID-19 pandemic. Finding the best health insurance for mental health is critical for ensuring your health overall during this challenging time.The ACA was enacted in 2010, with the goal of making health care more affordable to Americans. ",
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "service": "Dental Care",
+    "img": "https://i.ibb.co/qC86dg5/images-q-tbn-ANd9-Gc-Sjv-U-XTpo-G-gzf0-Cki-81-Wk7-Q-Liqbo-Nyh-53-Ypgv8h-Zdo-Vcuaw1m51-Bq-Ygpm-Pgsg-G.jpg",
+    "des": "General dentists prevent, evaluate, diagnose, and treat diseases of the oral cavity, as well as maintain the function and appearance of the teeth. Many oral diseases and abnormalities can indicate other diseases. A general dentist may refer patients to their physician or a specialist for further evaluation, or vice versa for treatment.Our residents come from all parts of the world, bringing you a global expertise coupled with the cutting edge research and knowledge of the University of Rochester Medical Center. There is no dental concern too small or large for the professionals at Eastman Dental's General Dentistry Division.",
+    "rating": 3.5
+  },
+  {
+    "id": 10,
+    "service": "Special Maternal Care",
+    "img": "https://i.ibb.co/vXyrkFg/UNI341035.jpg",
+    "des": "Every child deserves to have a healthy start in life, and every mother should have access to quality healthcare during pregnancy and childbirth. The birth of a new child should be a time for celebration, and yet for many women around the world it is a time of fear. According to the World Health Organisation, more than 800 women die every day from complications in pregnancy and childbirth. The majority of these deaths could be prevented given the right resources and care. Most of these deaths happen in the Global South, and are particularly high in rural areasIn these remote areas, women, newborns and children are often the most vulnerable to health problems.",
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "service": "Own Pharmacy Service",
+    "img": "https://i.ibb.co/TYC8q4N/Shot-of-a-young-woman-doing-inventory-in-a-pharmacy-on-a-digital-tablet-with-her-colleague-in-the-ba.jpg",
+    "des": "Multiple terms and definitions exist to describe specific aspects of pharmacy practice and service provision, yet none encompass the full range of professional services delivered by community pharmacy. The majority of current pharmacy service definitions and nomenclature refer to either the professional philosophy of pharmaceutical care or to specific professional pharmacy services; particularly pharmaceutical services provided by pharmacists with a focus on drug safety, effectiveness and health outcomes. The objective of this paper is therefore to define a professional pharmacy service within the context of the community pharmacy model of service provision.",
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "service": "Ambulance Service",
+    "img": "https://i.ibb.co/8PZ0NKD/Team-of-EMS-Paramedics-React-Quick-to-Bring-Injured-Patient-to-Healthcare-Hospital-and-Get-Him-Out-o.jpg",
+    "des": "The ambulance service is the emergency response wing of the National Health Service (NHS).The ambulance service has two main functions: an accident and emergency paramedical function, and the Patient Transport Service function which transfers immobile patients to and from their hospital appointments.There are currently 10 NHS ambulance trusts in England, some of which are now foundation trusts. Scotland, Wales and Northern Ireland have their own separate ambulance services.",
+    "rating": 3.5
+  }
+]
