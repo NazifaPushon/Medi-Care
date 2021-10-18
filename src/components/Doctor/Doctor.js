@@ -1,18 +1,18 @@
 import React from 'react';
 import { useHistory } from 'react-router';
-import { useAppoinment } from '../../Context/AppoinmentProvider';
-
+import '../../App.css';
+import { useAppointment } from '../../Context/AppointmentProvider';
 const Doctor = ({data}) => {
     const history = useHistory()
-    const {handleAppoinment} = useAppoinment();
+    const {handleAppointment} = useAppointment();
     const handleClick = () => {
-        handleAppoinment(data);
+        handleAppointment(data);
         history.push('/appoinments')
     }
     
     const {name,img,specialed,appoinmentCost} = data;
     return (
-        <div className="shadow-xl rounded-lg">
+        <div className="my-shadow rounded-lg">
             <div className="grid grid-cols-1 md:grid-cols-3 items-center">
             <div>
                 <img src={img} className="w-full h-full rounded-l-lg" alt="" />

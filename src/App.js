@@ -1,14 +1,15 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Appoinments from './components/Appoinments/Appoinments';
+import Appointments from './components/Appoinments/Appoinments';
 import DetailedService from './components/DetailedService/DetailedService';
 import Home from './components/Home/Home';
-import AppoinmentProvider from './Context/AppoinmentProvider';
+import AppointmentProvider from './Context/AppointmentProvider';
+
 
 function App() {
   return (
     <div className="text-lg text-gray-700">
-     <AppoinmentProvider>
+     <AppointmentProvider>
         <BrowserRouter>
         <Switch>
           <Route exact path="/">
@@ -21,12 +22,12 @@ function App() {
             <DetailedService/>
           </Route>
           <Route  path="/appoinments">
-            <Appoinments/>
+            <Appointments/>
           </Route>
         </Switch>
       </BrowserRouter>
       
-     </AppoinmentProvider>
+     </AppointmentProvider>
     </div>
   );
 }
