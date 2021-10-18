@@ -1,9 +1,8 @@
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from "react";
 import Rating from "react-rating";
 import { useHistory, useParams } from "react-router";
 import useFetch from "../../hooks/useFetch";
+import BackBtn from '../BackBtn/BackBtn';
 
 const DetailedService = () => {
     const history = useHistory()
@@ -35,11 +34,7 @@ const DetailedService = () => {
             fullSymbol="fa fa-star fa"
           />
         </p>
-        <button className="btn-1 my-5" onClick={handleClick}>
-            <FontAwesomeIcon icon={faArrowLeft} className="mr-2"/>
-            Go Back 
-        
-        </button>
+        <BackBtn/>
       </div>
       <div className="rounded-xl p-2 border-gray-300 border-2">
         <img src={img} alt="" className="w-full rounded-xl" />

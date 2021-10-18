@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Mike Varshavski",
+    "age": 31,
+    "specialed": "family medicine physician",
+    "appoinmentCost": 500,
+    "state": "New Jercy",
+    "star": 5,
+    "img": "https://hinterland.xyz/posts/homepageImage/7983"
+  },
+  {
+    "id": 2,
+    "name": "Danielle Jones",
+    "age": 35,
+    "specialed": "Gynecologist",
+    "appoinmentCost": 270,
+    "state": "Taxs",
+    "star": 3.5,
+    "img": "https://cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/MC5TVAXRNW5TB4FHN5HNYH4M7M.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Wendy Sue Swanson",
+    "age": 42,
+    "specialed": "pediatrician",
+    "appoinmentCost": 750,
+    "state": "New York",
+    "star": 4.5,
+    "img": "https://goldlabfoundation.org/wp-content/uploads/Wendy-Sue-Swanson-300x300.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kevin Pho",
+    "age": 32,
+    "specialed": "surgeon",
+    "appoinmentCost": 500,
+    "state": "New Jercy",
+    "star": 4,
+    "img": "https://pbs.twimg.com/profile_images/1182717255/Kevin2_WEB_400x400.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sanjay Gupta",
+    "age": 51,
+    "specialed": "Neurosurgist",
+    "appoinmentCost": 700,
+    "state": "California",
+    "star": 5,
+    "img": "https://pbs.twimg.com/profile_images/1383409364069875717/wjJAVJrR_400x400.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Valerie A. Fitzhugh",
+    "age": 41,
+    "specialed": " Pathologiest",
+    "appoinmentCost": 450,
+    "state": "Washington DC",
+    "star": 3,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN3yZtG6ZKV3jHT4OdoyVAYpFecxnz1-2FhThHG7lvf9cCr-nfyl4nYAM8S5Z6ipfpUgk&usqp=CAU"
+  }
+]
