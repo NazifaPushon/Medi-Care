@@ -22,7 +22,7 @@ const DetailCart = ({ data }) => {
   return (
     <div className="border-2 border-red-500 rounded-md p-4 my-10">
       <h1 className="text-red-500 font-bold bg-gray-300 text-center py-3 rounded text-2xl">
-        Pay Details
+        Payment Details
       </h1>
       <table className="table-auto w-full mx-auto my-5 text-xl">
           <tbody>
