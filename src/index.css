@@ -8,8 +8,11 @@
 .btn-2 {
   @apply px-10 py-3 text-center  text-red-500 border-2 border-red-500 hover:bg-red-500 hover:text-white rounded-full text-xl;
 }
+.btn-3 {
+  @apply w-full py-3 rounded-lg border-2  border-red-500 cursor-pointer font-medium bg-red-500 text-white;
+}
 .input {
-  @apply w-full px-4 py-3 rounded-lg ring-red-200 focus:ring-4 focus:outline-none  transition duration-300 border border-gray-300 focus:shadow-xl;
+  @apply w-full px-4 py-3 rounded-lg ring-red-200 focus:ring-4 focus:outline-none  transition duration-300 border border-gray-300 focus:shadow-xl my-3;
 }
 body {
   margin: 0;

@@ -53,7 +53,7 @@ const DetailCart = ({ data }) => {
           <h3 className="my-5 text-2xl font-bold text-center">Your Info</h3>
           <TextField placeholder="Contact Number"/>
           <textarea name="" id="" cols="10" rows="3" className="input my-5" placeholder="Your Address"></textarea>
-          <input type="submit" value="Check Out" className="w-full py-3 rounded border-2  border-red-500 cursor-pointer font-medium bg-red-500 text-white"/>
+          <input type="submit" value="Check Out" className="btn-3"/>
         </form>
       </div>
     </div>
