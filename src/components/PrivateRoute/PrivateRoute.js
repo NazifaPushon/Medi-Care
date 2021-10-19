@@ -3,6 +3,8 @@ import { Redirect, Route } from 'react-router';
 import { ClipLoader } from 'react-spinners';
 import useAuth from '../../hooks/useAuth';
 
+//Private Route
+// it redirects the user if he is not logged in
 const PrivateRoute = ({ children, ...rest }) => {
     const {user , isLoading} = useAuth()
     if(isLoading) {

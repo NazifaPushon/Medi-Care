@@ -1,17 +1,19 @@
 import React from "react";
 import Rating from "react-rating";
-import { useHistory, useParams } from "react-router";
+import { useParams } from "react-router";
 import useFetch from "../../hooks/useFetch";
 import BackBtn from '../BackBtn/BackBtn';
 
+//this is detailed service components 
+//it use data from services.json by usefetch hook
+//dynamic route is used here
 const DetailedService = () => {
-    const history = useHistory()
+  //get id from dynamic route
   const { id } = useParams();
-  const { data } = useFetch("/services.json");
-  const handleClick = () => {
-    history.push('/')
-  }
 
+  const { data } = useFetch("/services.json");
+
+  //searching and filtering data
   const item = data.find((singleData) => singleData.id === parseInt(id));
   const { service, des, img, rating } = item || {};
 
@@ -19,7 +21,7 @@ const DetailedService = () => {
     <div className="w-5/6 mx-auto my-10 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
       <div>
         <p>Service Id : {id}</p>
-        <h2 className="text-5xl text-red-600 my-5 font-medium">{service}</h2>
+        <h2 className="text-5xl text-red-950 my-5 font-medium">{service}</h2>
         <p className="leading-loose">
           {" "}
           <span className="font-bold text-red-500 ">Description</span> : {des}

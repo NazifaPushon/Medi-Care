@@ -2,10 +2,14 @@ import { faClock, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import '../../App.css';
+
+//AppointmentCard Components
+// this is used when a new appointmen has booked
 const AppointmentCard = ({data, handleClick}) => {
-    const date = new Date()
+    //initialize a date
+    const date = new Date() 
     
-    
+    // data is given by appoinments components
     const {name,img,specialed,appoinmentCost} = data;
     return (
         <div className="grid grid-cols-1 md:grid-cols-4 items-center my-10  p-5 rounded-lg my-shadow">
@@ -22,7 +26,7 @@ const AppointmentCard = ({data, handleClick}) => {
                    <button onClick={() => handleClick(data)} className=" text-2xl text-red-500">
                        <FontAwesomeIcon icon={faTrashAlt}/>
                    </button>
-                   <div className="mt-5  py-3 bg-red-200 text-red-700 rounded-full">
+                   <div className="mt-5  py-3 bg-red-200 text-red-950 rounded-full">
                        <FontAwesomeIcon icon={faClock} className="mr-1"/>
                         {date.toLocaleDateString('en-US')}
                    </div>

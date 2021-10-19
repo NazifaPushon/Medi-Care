@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 
+// this hook load json data
 const useFetch = (url) => {
     const [data,setData] = useState([])
     useEffect(() => {

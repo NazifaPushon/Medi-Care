@@ -7,6 +7,9 @@ import useAuth from '../../hooks/useAuth';
 import GoogleSignIn from '../GoogleSignIn/GoogleSignIn';
 import UnderLine from '../UnderLine/UnderLine';
 
+//user login Components
+//react hook form is used here
+// login info is used form useAuth
 
 const Login = () => {
     const history = useHistory()
@@ -14,6 +17,8 @@ const Login = () => {
     const redirect_URL = location.state?.from || '/'
     const { signIn, setUser , setIsLoading} = useAuth();
     const { register, handleSubmit, formState: { errors } } = useForm();
+
+    //handle the submision of the form and login the user
     const onSubmit = data => {
         const { email, password } = data;
         signIn(email, password)
@@ -27,21 +32,33 @@ const Login = () => {
                 history.push(redirect_URL)
             })
             .catch((error) => {
+                let alertmessage;
+                const err = error.message
+                if(err.includes("wrong-password")){
+                    alertmessage = "Your Password Wrog"
+                }else if (err.includes("user-not-found")){
+                    alertmessage = "User Not Found"
+                }
+                else{
+                    alertmessage = "Something went wrong"
+                }
                 Swal.fire({
                     icon: 'error',
-                    title: 'Something Went Wrong',
+                    title: alertmessage,
                     text: error.message,
                 })
             }).finally(() => {
                 setIsLoading(false)
             });
     };
+
     return (
-        <main className="h-screen w-full my-10">
+        <main className="h-screen mx-5 my-10">
             <h1 className="text-center text-3xl font-semibold">MADI CARE LOGIN</h1>
             <UnderLine />
             <div className="flex justify-center items-center">
                 <form className="bg-white w-96 mt-6 p-4 rounded-lg my-shadow" onSubmit={handleSubmit(onSubmit)}>
+                    
                     <input className="input" {...register("email", { required: true })} type="email" placeholder="Your Email" />
                     {errors.email && <p className="text-red-500">Email is required</p>}
 

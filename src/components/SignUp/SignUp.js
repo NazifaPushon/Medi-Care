@@ -3,24 +3,26 @@ import { useForm } from "react-hook-form";
 import { useHistory, useLocation } from "react-router";
 import { NavLink } from "react-router-dom";
 import Swal from "sweetalert2";
-import initializeAuthentication from "../../firebase/firebase.init";
 import useAuth from "../../hooks/useAuth";
 import GoogleSignIn from "../GoogleSignIn/GoogleSignIn";
 import UnderLine from "../UnderLine/UnderLine";
 
-initializeAuthentication()
-
+// this is the Sign Up component
+//it impliments sign up from useAuth hook
 const SignUp = () => {
+  // redirects info
   const history = useHistory()
   const location = useLocation()
   const redirect_URL = location.state?.from || '/'
   const { signUp, profileUpdate , setIsLoading } = useAuth()
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
+  //function for submit the form and sign in the user
   const onSubmit = (data) => {
     const { email, password, userName } = data
     signUp(email, password, userName)
@@ -39,7 +41,7 @@ const SignUp = () => {
       });
   };
   return (
-    <main className="h-screen w-full my-10">
+    <main className="h-screen mx-5 my-10">
       <h1 className="text-center text-3xl font-semibold">MADI CARE SIGN UP</h1>
       <UnderLine />
       <div className="flex justify-center items-center">

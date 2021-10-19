@@ -1,6 +1,9 @@
 import React from 'react';
 import { useHistory } from 'react-router';
 import '../../App.css';
+
+// this is the components used by services components
+// this componenet render single Service
 const SingleService = ({service}) => {
     const history = useHistory()
     const {img,service : serviceName,des,id} = service;

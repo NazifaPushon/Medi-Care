@@ -3,8 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useHistory } from 'react-router';
 
+//this is a tiny component to redirect the user to the home page from any page
 const BackBtn = () => {
+    //initialize history
     const history = useHistory()
+
+    //function for btn clicked
     const handleClick = () => {
         history.push('/')
     }
