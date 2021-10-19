@@ -25,11 +25,7 @@ const Header = () => {
                         </NavLink>
                     </div>
                     {user.email ? <>
-                        <div className="my-3 lg:my-0 p-3">
-                            <NavLink to="/care">
-                                Primary Care
-                            </NavLink>
-                        </div>
+                        
                         <div className="my-3 lg:my-0  p-3">
                             <NavLink to="/appoinments">
                                 Your Appoinments
@@ -54,6 +50,11 @@ const Header = () => {
                             <HashLink to="/home#services">
                                 Services
                             </HashLink>
+                        </div>
+                        <div className="my-3 lg:my-0 p-3">
+                            <NavLink to="/care">
+                                Primary Care
+                            </NavLink>
                         </div>
                         <div className="my-3 lg:my-0 p-3">
                             <HashLink to="/home#doctors">
