@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import { useAppointment } from '../../Context/AppointmentProvider';
 import AppointmentCard from '../AppointmentCard/AppointmentCard';
 import BackBtn from '../BackBtn/BackBtn';
@@ -39,7 +40,11 @@ const Appointments = () => {
                     {/* Appointment Cart Goes Here */}
                     <DetailCart data={{subTotal,tax,total,count: appointment.length}}/>
                 </div>
-            </div> : <h2 className="text-center text-3xl text-red-500 font-medium text-red my-20">No Appoinment Booked !</h2>}
+            </div> : <div className="my-10 text-center"><h2 className="text-center text-3xl text-red-500 font-medium text-red my-20">No Appoinment Booked !</h2>
+            <HashLink to="/home#doctors">
+                <button>Find Appointmens</button>
+            </HashLink>
+            </div>}
             <BackBtn/>
             
         </div>
