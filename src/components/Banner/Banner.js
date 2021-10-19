@@ -15,7 +15,7 @@ const Banner = () => {
             <h1 className="text-8xl text-red-950 py-5">Is Our Priority</h1>
             <h1 className="text-4xl">
               Be Safe With{" "}
-              <span className="text-6xl text-red-950"> MADI CARE</span>
+              <span className="text-6xl text-red-950"> MEDI CARE</span>
             </h1>
           </div>
           <p>

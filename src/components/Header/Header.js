@@ -11,7 +11,6 @@ import useAuth from '../../hooks/useAuth';
 const Header = () => {
     const history = useHistory()
     const { user, logOut } = useAuth()
-    console.log(user.photoURL)
     return (
         <nav className="bg-red-950 text-white font-medium py-5 lg:py-0">
             <div className="grid grid-cols-1 lg:grid-cols-4 items-center w-5/6 mx-auto text-xl">

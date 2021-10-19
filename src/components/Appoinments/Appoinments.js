@@ -42,7 +42,7 @@ const Appointments = () => {
                 </div>
             </div> : <div className="my-10 text-center"><h2 className="text-center text-3xl text-red-500 font-medium text-red my-20">No Appoinment Booked !</h2>
             <HashLink to="/home#doctors">
-                <button>Find Appointmens</button>
+                <button className="btn-1">Find Appointmens</button>
             </HashLink>
             </div>}
             <BackBtn/>
