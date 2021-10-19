@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
 import Swal from 'sweetalert2';
 
+//initialize Context
 export const AppointmentContext = createContext();
 
 // hook part
