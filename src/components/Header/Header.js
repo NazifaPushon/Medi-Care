@@ -26,18 +26,10 @@ const Header = () => {
                     </div>
                     {user.email ? <>
                         
-                        <div className="my-3 lg:my-0  p-3">
-                            <NavLink to="/appoinments">
-                                Your Appoinments
-                            </NavLink>
-                        </div>
-
                         <div className="my-3 lg:my-0 p-3 flex items-center">
                             {user.photoURL ? <img src={user.photoURL} className="w-10 h-10 rounded-full" alt=""/> : <FontAwesomeIcon  icon={faUser}/>}
                             <span className="ml-2"> {user.displayName}</span>
                         </div>
-                        
-
                         <div className="my-3 lg:my-0 p-3">
                             <button className="px-3 py-2 bg-white text-red-950 rounded-full" onClick={() => {
                                 logOut();
@@ -51,15 +43,15 @@ const Header = () => {
                                 Services
                             </HashLink>
                         </div>
+                        <div className="my-3 lg:my-0  p-3">
+                            <NavLink to="/appoinments">
+                                 Appoinments
+                            </NavLink>
+                        </div>
                         <div className="my-3 lg:my-0 p-3">
                             <NavLink to="/care">
                                 Primary Care
                             </NavLink>
-                        </div>
-                        <div className="my-3 lg:my-0 p-3">
-                            <HashLink to="/home#doctors">
-                                Our Doctors
-                            </HashLink>
                         </div>
                         <div className="my-3 lg:my-0 p-3">
                             <NavLink to="/login">
