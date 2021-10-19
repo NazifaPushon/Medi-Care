@@ -11,7 +11,7 @@ const Features = () => {
         <section className="my-10 bg-blue-950 text-white text-center p-10">
             <h4 className="text-xl font-bold text-red-950">When We Are Giving</h4>
             <h1 className="text-5xl font-semibold my-5">Some main process and why choose us</h1>
-            <p className="text-md text-gray-400 w-2/4 mx-auto">Why HounLare services is best all time since 1990. desires to obtain of itself, because it is pain,
+            <p className="text-md text-gray-400 md:w-2/4 mx-auto">Why HounLare services is best all time since 1990. desires to obtain of itself, because it is pain,
             but because occasionally circumstance procure him some great deals.</p>
             <div className="md:w-5/6 md:mx-auto mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
                 {/* ------cards start here------- */}
