@@ -3,9 +3,12 @@ import Swal from 'sweetalert2';
 
 export const AppointmentContext = createContext();
 
+// hook part
 export const useAppointment = () => {
     return useContext(AppointmentContext)
 }
+
+//Functionality Part
 const AppointmentProvider = ({ children }) => {
     const [appointment, setAppointment] = useState([]);
 
