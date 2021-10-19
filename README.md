@@ -11,4 +11,4 @@ In this website , one can learn about hospitals services , book an appointment w
 - Here is 12 services of the website . Each services has a detail page (dynamic Route).
 - There is four page/route login, sign up , appoinments , primary care.
 - As external package , I used react-hook-form , react-router, sweetalert , react rating
-- For styling , I Used Tailwind CSS.
+- For styling , I used Tailwind CSS.
