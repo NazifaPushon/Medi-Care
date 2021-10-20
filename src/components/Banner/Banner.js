@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 
@@ -27,9 +26,9 @@ const Banner = () => {
             <HashLink to="/home#services">
               <button className="btn-1 mr-5 my-5">Services</button>
             </HashLink>
-            <NavLink to="/login">
-              <button className="btn-2 my-5">Login</button>
-            </NavLink>
+            <HashLink to="/home#doctors">
+              <button className="btn-2 my-5">Our Doctors</button>
+            </HashLink>
           </div>
         </div>
 
