@@ -25,6 +25,15 @@ const SignUp = () => {
   //function for submit the form and sign in the user
   const onSubmit = (data) => {
     const { email, password, userName } = data
+
+    if(password.length < 6){
+      Swal.fire({
+        icon: 'warning',
+        title: 'Password must contains at least 6 character',
+    })
+
+    return
+    }
     signUp(email, password, userName)
       .then(() => {
         profileUpdate(userName)

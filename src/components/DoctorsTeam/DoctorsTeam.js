@@ -13,7 +13,7 @@ const DoctorsTeam = () => {
 
     return (
         <section id="doctors" className="md:w-5/6 md:mx-auto mx-5 my-10">
-            <h1 className="text-5xl font-medium text-center">Meet The Team of Health Care</h1>
+            <h1 className="text-5xl font-medium text-center">Meet Our Doctors And  Book Appointments</h1>
             <UnderLine/>
             <p className="text-center text-xl">You can book their appointment from this site !</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
