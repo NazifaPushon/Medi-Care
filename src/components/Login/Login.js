@@ -68,7 +68,7 @@ const Login = () => {
                     <input type="submit" className="btn-3" value="Login" />
                     <br />
                     <div className="text-center my-5">
-                        <NavLink to="/signUp" className="text-normal  text-red-500 hover:underline"> Need An Account ? </NavLink>
+                        <NavLink to="/signUp" className="text-normal  text-red-500 underline"> Need An Account ? </NavLink>
                     </div>
                     <br />
                     <GoogleSignIn text="Login With Google" />

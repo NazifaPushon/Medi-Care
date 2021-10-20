@@ -93,10 +93,9 @@ const SignUp = () => {
           <div className="text-center my-5">
             <NavLink
               to="/login"
-              className="text-normal  text-red-500 hover:underline"
+              className="text-normal  text-red-500 underline"
             >
-              {" "}
-              Already have an Account ?{" "}
+              Already have an Account ?
             </NavLink>
           </div>
           <br />
