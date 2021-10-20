@@ -2,7 +2,7 @@
 
 ### Online medical Service [MEDI CARE](https://assignment-2-96a85.web.app/)
 
-In this website , one can learn about hospitals services , book an appointment with doctors , get some primary care .
+This is a project for a general hospital . In this website , one can learn about hospitals services , book an appointment with doctors , get some primary care , login and create a account and use the services .
 
 > About my Project -
 
